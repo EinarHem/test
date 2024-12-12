@@ -4,9 +4,7 @@
 # it will set up everything needed to create a shadow database of brreg.no 
 # and keep it updated by monitoring brreg.no for changes 
 # Maintanter terchris Terje Christensen
-
 # the solution consists of two containers. One is a standard postgres container, the other is a node container that does all the work.
-
 # files used to set status of the installation
 INITIATEDDBFILE=/usr/src/app/database_initiated.txt
 GITHUBDIR=/usr/src/app/shadow-brreg
